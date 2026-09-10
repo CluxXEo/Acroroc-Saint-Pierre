@@ -1,1 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infos Pratiques &amp; Bon Cadeau — Acroroc, Parc Aventure Saint-Pierre</title>
+<meta name="description" content="Horaires, contact, conditions d'accès et bon cadeau du parc aventure Acroroc à Saint-Pierre, La Réunion. Réservation obligatoire.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Karla:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+<header>
+  <div class="nav">
+    <a href="index.html" class="brand">Acroroc<span class="dot">.</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Le parc</a>
+      <a href="pass.html">Nos pass</a>
+      <a href="parcours.html">Parcours &amp; galerie</a>
+      <a href="infos.html" class="active">Infos &amp; cadeau</a>
+    </nav>
+    <a href="pass.html" class="btn btn-primary">Réserver</a>
+  </div>
+</header>
+
+<section class="cadeau" id="cadeau" style="padding-top:150px;">
+  <div class="wrap">
+    <div class="cadeau-grid">
+      <div class="reveal reveal-left">
+        <div class="kicker">Bon cadeau</div>
+        <h2>Offrez un cadeau <em>100% nature</em></h2>
+        <p style="margin-top:16px; color:#4a5148; line-height:1.6;">En panne d'idée cadeau ? Un bon original pour les 7 à 77 ans, valable 1 an, à offrir en deux clics.</p>
+        <!-- Généré par js/render-infos.js à partir de js/data.js -->
+        <div class="cadeau-steps" id="cadeauSteps"></div>
+        <a href="tel:0692457137" class="btn btn-primary" style="margin-top:30px;">Offrir un bon cadeau</a>
+      </div>
+      <div class="cadeau-photo reveal reveal-zoom">
+        <img src="images/ph-cadeau.jpg" alt="Bon cadeau Acroroc" loading="lazy" width="700" height="875">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="infos" id="infos">
+  <div class="wrap">
+    <div class="kicker reveal reveal-up">Infos pratiques</div>
+    <div class="section-head reveal reveal-up">
+      <h2>Préparez votre <em>venue</em></h2>
+      <p>La réservation est obligatoire pour accéder au parc.</p>
+    </div>
+    <div class="infos-grid reveal-stagger">
+      <div class="infos-col">
+        <h3>Horaires</h3>
+        <!-- Généré par js/render-infos.js à partir de js/data.js -->
+        <div id="horairesList"></div>
+        <p class="hours-note" id="vacancesNote"></p>
+      </div>
+      <div class="infos-col">
+        <h3>Nous contacter</h3>
+        <div class="contact-line"><span class="ic">📞</span><div><a id="contactTel" href="tel:0692457137">0692 457 137</a></div></div>
+        <div class="contact-line"><span class="ic">✉️</span><div><a id="contactEmail" href="mailto:contact@acroroc974.com">contact@acroroc974.com</a></div></div>
+        <div class="contact-line"><span class="ic">📍</span><div id="contactAdresse">9 Chemin Bassin Plat<br>97410 Saint-Pierre, La Réunion</div></div>
+        <a href="tel:0692457137" class="btn btn-primary btn-block">Appeler maintenant</a>
+      </div>
+      <div class="infos-col">
+        <h3>Avant de venir</h3>
+        <!-- Généré par js/render-infos.js à partir de js/data.js -->
+        <ul class="conditions-list" id="conditionsList"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="partenaires">
+  <div class="wrap">
+    <div class="kicker reveal reveal-up">Ils nous soutiennent</div>
+    <div class="section-head reveal reveal-up">
+      <h2>Nos partenaires</h2>
+    </div>
+    <!-- Généré par js/render-infos.js à partir de js/data.js -->
+    <div class="partner-grid reveal-stagger" id="partnerGrid"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand">Acroroc<span class="dot">.</span></div>
+        <p class="foot-tag">Le plus grand parc aventure de La Réunion. Accrobranche et tyroliennes à Saint-Pierre, entre arbres, rochers et rivière.</p>
+      </div>
+      <div class="foot-links">
+        <div class="foot-col">
+          <h5>Parc</h5>
+          <a href="pass.html">Nos pass</a>
+          <a href="parcours.html">Parcours</a>
+          <a href="infos.html#cadeau">Bon cadeau</a>
+        </div>
+        <div class="foot-col">
+          <h5>Contact</h5>
+          <a href="tel:0692457137">0692 457 137</a>
+          <a href="mailto:contact@acroroc974.com">contact@acroroc974.com</a>
+          <p>Saint-Pierre, La Réunion</p>
+        </div>
+        <div class="foot-col">
+          <h5>Suivre</h5>
+          <a href="https://facebook.com/acroroc974" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://instagram.com/acrorocparcaventure1920" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Acroroc Parc Aventure — Saint-Pierre, La Réunion</span>
+      <span>Réservation obligatoire</span>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky-cta">
+  <a href="pass.html">🌿 Réserver</a>
+  <a href="tel:0692457137">📞 Appeler</a>
+</div>
+
+<!-- ===== Checklist de suivi de projet (uniquement sur cette page — à retirer avant mise en ligne) ===== -->
+<button class="checklist-toggle" id="checklistToggle" aria-label="Ouvrir le suivi de projet" aria-expanded="false">
+  📋
+  <span class="checklist-badge" id="checklistBadge">0</span>
+</button>
+
+<div class="checklist-panel" id="checklistPanel" role="dialog" aria-label="Suivi de projet">
+  <div class="checklist-head">
+    <div>
+      <h4>Suivi du projet</h4>
+      <span id="checklistSummary">0 / 0 étapes faites</span>
+    </div>
+    <div class="checklist-progress-ring">
+      <svg width="34" height="34" viewBox="0 0 34 34">
+        <circle class="track" cx="17" cy="17" r="14"></circle>
+        <circle class="fill" id="progressFill" cx="17" cy="17" r="14" stroke-dasharray="88" stroke-dashoffset="88"></circle>
+      </svg>
+      <div class="pct" id="progressPct">0%</div>
+    </div>
+  </div>
+  <div class="checklist-body">
+    <div class="checklist-group">
+      <div class="checklist-group-title">Design &amp; structure</div>
+      <div class="checklist-item"><input type="checkbox" class="cl-check" id="c1" checked><label for="c1">Style nature/sport (vert forêt, crème, rouille)</label></div>
+      <div class="checklist-item"><input type="checkbox" class="cl-check" id="c2" checked><label for="c2">Contenu réel repris (pass, parcours, horaires, partenaires)</label></div>
+      <div class="checklist-item"><input type="checkbox" class="cl-check" id="c3" checked><label for="c3">Responsive mobile / tablette / desktop</label></div>
+      <div class="checklist-item"><input type="checkbox" class="cl-check" id="c11" checked><label for="c11">Séparation en 4 pages + CSS/JS externes (comme CluxXEo)</label></div>
+    </div>
+    <div class="checklist-group">
+      <div class="checklist-group-title">Dynamisme</div>
+      <div class="checklist-item"><input type="checkbox" class="cl-check" id="c4" checked><label for="c4">Animations au scroll (fade-in / slide / zoom)</label></div>
+      <div class="checklist-item"><input type="checkbox" class="cl-check" id="c5" checked><label for="c5">Micro-interactions (boutons, cartes, liens)</label></div>
+    </div>
+    <div class="checklist-group">
+      <div class="checklist-group-title">Images</div>
+      <div class="checklist-item"><input type="checkbox" class="cl-check" id="c6" checked><label for="c6">Emplacements photo prêts, responsive, optimisés</label></div>
+      <div class="checklist-item"><input type="checkbox" class="cl-check" id="c7"><label for="c7">Remplacer les placeholders par les vraies photos du parc</label></div>
+    </div>
+    <div class="checklist-group">
+      <div class="checklist-group-title">Avant mise en ligne</div>
+      <div class="checklist-item"><input type="checkbox" class="cl-check" id="c8"><label for="c8">Faire valider les tarifs / horaires par Acroroc</label></div>
+      <div class="checklist-item"><input type="checkbox" class="cl-check" id="c9"><label for="c9">Vérifier les liens partenaires</label></div>
+      <div class="checklist-item"><input type="checkbox" class="cl-check" id="c10"><label for="c10">Retirer cet encadré de suivi avant publication</label></div>
+    </div>
+  </div>
+  <div class="checklist-foot">Visible uniquement dans ce livrable de travail</div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/render-infos.js"></script>
+<script src="js/reveal.js"></script>
+<script src="js/checklist.js"></script>
+
+</body>
+</html>
