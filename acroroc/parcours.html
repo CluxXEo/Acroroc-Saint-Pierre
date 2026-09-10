@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parcours &amp; Galerie — Acroroc, Parc Aventure Saint-Pierre</title>
+<meta name="description" content="8 parcours accrobranche de difficulté croissante, de l'Orange au Noir Via Extrême, et la Méga Tyro 350 : la plus haute tyrolienne de La Réunion.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Karla:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+<header>
+  <div class="nav">
+    <a href="index.html" class="brand">Acroroc<span class="dot">.</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Le parc</a>
+      <a href="pass.html">Nos pass</a>
+      <a href="parcours.html" class="active">Parcours &amp; galerie</a>
+      <a href="infos.html">Infos &amp; cadeau</a>
+    </nav>
+    <a href="pass.html" class="btn btn-primary">Réserver</a>
+  </div>
+</header>
+
+<section class="parcours-strip" id="parcours" style="padding-top:150px;">
+  <div class="wrap">
+    <div class="kicker reveal reveal-up">Le plan des parcours</div>
+    <div class="section-head reveal reveal-up">
+      <h2>8 parcours, une difficulté <em>croissante</em></h2>
+      <p>Chaque parcours dure entre 20 minutes et 1 heure. Les enfants de moins de 15 ans doivent être accompagnés d'un adulte majeur sur les parcours ; de 15 à 17 ans, un adulte doit rester au sol.</p>
+    </div>
+    <!-- Généré par js/render-parcours.js à partir de js/data.js -->
+    <div class="parcours-list reveal-stagger" id="parcoursList"></div>
+  </div>
+</section>
+
+<section class="galerie" id="galerie">
+  <div class="wrap">
+    <div class="kicker reveal reveal-up">Dans les arbres</div>
+    <div class="section-head reveal reveal-up">
+      <h2>Ce que vous <em>allez vivre</em></h2>
+    </div>
+    <!-- Généré par js/render-parcours.js à partir de js/data.js -->
+    <div class="gal-grid reveal-stagger" id="galGrid"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand">Acroroc<span class="dot">.</span></div>
+        <p class="foot-tag">Le plus grand parc aventure de La Réunion. Accrobranche et tyroliennes à Saint-Pierre, entre arbres, rochers et rivière.</p>
+      </div>
+      <div class="foot-links">
+        <div class="foot-col">
+          <h5>Parc</h5>
+          <a href="pass.html">Nos pass</a>
+          <a href="parcours.html">Parcours</a>
+          <a href="infos.html#cadeau">Bon cadeau</a>
+        </div>
+        <div class="foot-col">
+          <h5>Contact</h5>
+          <a href="tel:0692457137">0692 457 137</a>
+          <a href="mailto:contact@acroroc974.com">contact@acroroc974.com</a>
+          <p>Saint-Pierre, La Réunion</p>
+        </div>
+        <div class="foot-col">
+          <h5>Suivre</h5>
+          <a href="https://facebook.com/acroroc974" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://instagram.com/acrorocparcaventure1920" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Acroroc Parc Aventure — Saint-Pierre, La Réunion</span>
+      <span>Réservation obligatoire</span>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky-cta">
+  <a href="pass.html">🌿 Réserver</a>
+  <a href="tel:0692457137">📞 Appeler</a>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/render-parcours.js"></script>
+<script src="js/reveal.js"></script>
+
+</body>
+</html>
